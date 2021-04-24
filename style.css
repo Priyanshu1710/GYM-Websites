@@ -1,0 +1,124 @@
+body {
+    color: white;
+    background: url('bg.jpg')no-repeat;
+    
+    /* font-family: 'Baloo Chettan 2', cursive; */
+
+    
+}
+
+.left {
+
+    border: 2px solid white;
+    display: inline-block;
+    /* background-image: url('h.png') ; */
+    position: absolute;
+    left: 22px;
+    top: 31px;
+    padding: 10px;
+
+    /* top: 43px;
+    left:35px; */
+    color: gray;
+    font-size: 30px;
+    border-radius: 10px;
+    
+    
+}
+/* mid */
+.mid {
+    border: 2px solid rgb(61, 65, 62);
+    display: block;
+    width: 25%;
+    margin: 31px auto;
+    border-radius: 30px;
+    text-align:center ;
+    border-color: rgb(248, 246, 246);
+}
+
+
+
+.navbar ul li  {
+    display: inline-block;
+}
+.navbar ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+}
+.navbar ul li a:hover{
+    color: gray;
+    /* text-decoration: none; */
+    padding: 20px;
+    cursor: pointer;
+}
+/* Right */
+.right {
+    /* border: 2px solid rgb(247, 247, 248); */
+    display: inline-block;
+    position: absolute;
+    right: 24px;
+    top: 27px;
+    border-radius: 8px;
+}
+.search, .btn{
+    /* border: 2px solid rgb(241, 238, 238); */
+    border-radius: 11px;
+    padding: 8px;
+    background-color: black;
+    color: rgb(243, 234, 234);
+    /* border-color: rgb(37, 37, 37); */
+    border-color: rgb(248, 246, 246);
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn a:hover{
+    color: white;
+    text-decoration: none;
+    color: gray;
+}
+.section{
+    padding: 30px;
+    margin: 90px;
+    position: absolute;
+    top: 53px;
+    left: 60px;
+}
+.abc{
+    padding: 14px;
+    border-radius: 12px;
+    margin: 5px;
+    width: 280px;
+    text-align: center;
+    background-color: black;
+    color:white;
+    /* border-color: rgb(37, 37, 37); */
+    border-color: rgb(248, 246, 246);
+    font-family: 'Baloo Chettan 2', cursive;
+
+}
+#button .btn{
+    width: 314px;
+    padding: 13px;
+    margin: 5px;
+}
+
+.btn:hover{
+    color: gray;
+}
+.w3-container{
+    color: gray;
+    position: absolute;
+    top: 12em;
+    right: 10em;
+    
+}
+.w3-container span{
+   
+    color: rgb(240, 11, 11);
+    
+}
